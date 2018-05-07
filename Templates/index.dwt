@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Home Page</title>
+<!-- TemplateEndEditable -->
+
+<meta charset="utf-8">
+  <meta name="author" content="Stephanie Rajabi">
+  <meta name="description" content="Stephanie Rajabi, CV">
+  <meta name="keywords" content="Stephanie Rajabi, Cirriculum Vitae, Resume, Work, Research, Education">
+
+  <link href="../css/style.css" type="text/css" rel="stylesheet">
+</head>
+ 
+<body>
+
+  <header>
+    <div class="profile-picture">
+      <img src="../images/profile-pic.jpg">
+    </div>
+
+  <div class="header-info">
+    <h1>Stephanie Rajabi</h1>
+    <h2>Montreal, Quebec</h2>
+  </div>
+
+    <nav id="navmenu">
+      <ul>
+        <!-- TemplateBeginEditable name="NavBar List" -->
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../education.html">Education</a></li>
+          <li><a href="../work.html">Work</a></li>
+          <li><a href="../research.html">Research</a>
+            <ul class="submenu">
+              <li><a href="../neurobiology.html">Neurobiology</a></li>
+              <li><a href="../clinicalpsych.html">Clinical Psychology</a></li>
+            </ul>
+          </li>
+        <!-- TemplateEndEditable -->
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- TemplateBeginEditable name="Page Main Content" -->
+  <main> </main>
+  <!-- TemplateEndEditable -->
+  
+  <footer>
+    <article class="contact-info">
+      <p><i class="fa fa-at"></i>stephanie.rajabi@mail.mcgill.ca</p>
+      <p><i class="fa fa-phone"></i>514.295.2472</p>
+    </article>
+
+    <article class="contact-form">
+      <form method="POST" action="https://formspree.io/sales@hrssci.com">
+        <textarea name="name" placeholder="First, Last Name" required></textarea><br><br>
+        <input type="email" name="email" placeholder="Email Address"><br><br>
+        <textarea name="organization/institution" placeholder="Organization/Institution" required></textarea><br><br>
+        <textarea name="message" placeholder="Your Message Here" required></textarea><br><br>
+
+        <button type="submit"><i class="fa fa-paper-plane"></i></button>
+      </form>
+    </article>
+  </footer>
+  
+</body>
+
+</html>
